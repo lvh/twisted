@@ -490,9 +490,9 @@ class ClimbTests(TestCase):
 
     def test_negativeClimbs(self):
         """
-        TODO: What? Negative climbs should totally be okay.
+        Tests that creating negative climbs works.
         """
-        self.assertRaises(ValueError, base.Climb, -1.0)
+        base.Climb(-42.)
 
 
     def test_speedInKnots(self):
