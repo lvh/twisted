@@ -1,8 +1,10 @@
 # -*- encoding: utf-8 -*-
-# Copyright (c) 2009 Twisted Matrix Laboratories.
+# Copyright (c) 2009-2011 Twisted Matrix Laboratories.
 # See LICENSE for details.
 """
-Positioning interface.
+Positioning interfaces.
+
+@since: 11.1
 """
 from zope.interface import Interface
 

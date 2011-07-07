@@ -1,5 +1,8 @@
+# -*- encoding: utf-8 -*-
+# Copyright (c) 2009-2011 Twisted Matrix Laboratories.
+# See LICENSE for details.
 """
 The Twisted positioning framework.
 
-@since: 9.0
+@since: 11.1
 """

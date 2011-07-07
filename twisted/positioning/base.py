@@ -1,11 +1,10 @@
-# -*- encoding: utf-8 -*-
-# -*- test-case-name: twisted.positioning.test.test_base -*-
-# Copyright (c) 2009 Twisted Matrix Laboratories.
+# -*- test-case-name: twisted.positioning.test.test_base,twisted.positioning.test.test_sentence; encoding: utf-8 -*-
+# Copyright (c) 2009-2011 Twisted Matrix Laboratories.
 # See LICENSE for details.
 """
 Generic positioning base classes.
 
-@since: 9.0
+@since: 11.1
 """
 from zope.interface import implements
 from twisted.python.util import FancyEqMixin
@@ -18,6 +17,7 @@ METERS_PER_FOOT = 0.3048
 
 LATITUDE, LONGITUDE, HEADING, VARIATION = range(4)
 NORTH, EAST, SOUTH, WEST = range(4)
+
 
 
 class BasePositioningReceiver(object):
