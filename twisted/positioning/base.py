@@ -1,4 +1,4 @@
-# -*- test-case-name: twisted.positioning.test.test_base,twisted.positioning.test.test_sentence; encoding: utf-8 -*-
+# -*- test-case-name: twisted.positioning.test.test_base,twisted.positioning.test.test_sentence -*-
 # Copyright (c) 2009-2011 Twisted Matrix Laboratories.
 # See LICENSE for details.
 """

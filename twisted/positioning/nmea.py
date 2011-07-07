@@ -1,4 +1,4 @@
-# -*- test-case-name: twisted.positioning.test.test_nmea; encoding: utf-8 -*-
+# -*- test-case-name: twisted.positioning.test.test_nmea -*-
 # Copyright (c) 2009-2011 Twisted Matrix Laboratories.
 # See LICENSE for details.
 """
